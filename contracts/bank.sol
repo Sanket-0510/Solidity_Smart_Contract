@@ -9,4 +9,10 @@ contract bank{
     function getBalance()public view returns (int){
         return bal;
     }
+    function deposit(int amt)public {
+        bal += amt;
+    }
+    function widraw(int amt)public {
+        bal-=amt;
+    }
 }
