@@ -1,0 +1,90 @@
+{
+	"compiler": {
+		"version": "0.8.19+commit.7dd6d404"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "amt",
+						"type": "int256"
+					}
+				],
+				"name": "deposit",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getBalance",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "amt",
+						"type": "int256"
+					}
+				],
+				"name": "widraw",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/bank.sol": "bank"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/bank.sol": {
+			"keccak256": "0xc34c0c6e266ace61269e8480bc4120c914a311422a2e8610af451ade7006b7ab",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://48d64e2c20a5c0d8836716b3d01b6fecc8a4800a5c2c3b091fc19dc6f564fbb8",
+				"dweb:/ipfs/Qmbe1HoECS6Cc9JXYbhvDZZUjjZKL9LvHyssUjakkbxPub"
+			]
+		}
+	},
+	"version": 1
+}
