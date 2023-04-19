@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.19+commit.7dd6d404"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "age",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/state.sol": "state"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/state.sol": {
+			"keccak256": "0x002e4ae533db29f59ab44763bb4649c1d57455ffbeb581ecae10a9435acb22ab",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://96999d81e4b4841620c01cc1c94c8c55a5b4ba44cc527040f4be028654d3117f",
+				"dweb:/ipfs/QmYRtPa1vJ7HcqtE65f22veQRmoEz7Ssp8sXp5srxts5dW"
+			]
+		}
+	},
+	"version": 1
+}
